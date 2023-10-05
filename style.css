@@ -1,0 +1,42 @@
+@media (max-width: 991px) {
+    #optionsLG, h3, .carousel{
+        display: none;
+    }
+
+    #search{
+        width: 100%;
+        margin-top: 0.25rem;
+    }
+}
+
+@media (min-width: 576px) {
+    #optionsToggleMenu{
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    #optionsToggleMenu{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #optionsButtonMenu{
+        display: none;
+    }
+
+    #search{
+        position: absolute;
+        right: 0;
+        top: 2;
+        width: 15%;
+    }
+
+    .navText{
+        margin-left: 30%;
+        margin-right: 40%;
+    }
+}
