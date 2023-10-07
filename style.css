@@ -1,5 +1,5 @@
 @media (max-width: 991px) {
-    #optionsLG, h3, .carousel{
+    #optionsBody, h3, .carousel{
         display: none;
     }
 
@@ -14,6 +14,10 @@
         width: 75%;
         margin: auto;
     }
+
+    #optionsBody{
+        display: block;
+    }
 }
 
 @media (max-width: 575px) {
@@ -21,11 +25,19 @@
         width: 100%;
         margin: auto;
     }
+
+    #optionsBody{
+        display: block;
+    }
 }
 
 @media (min-width: 992px) {
     #optionsButtonMenu{
         display: none;
+    }
+
+    #optionsBody{
+        display: block;
     }
 
     #search{
