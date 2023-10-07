@@ -1,54 +1,66 @@
+/* Tamaño de pantalla: Hasta 991px (Tabletas en modo horizontal y laptops en resoluciones más bajas) */
 @media (max-width: 991px) {
-    #optionsBody, h3, .carousel{
+    #optionsBody, h3, .carousel {
         display: none;
     }
 
-    #search{
+    #search {
         width: 100%;
         margin-top: 0.25rem;
     }
 }
 
+/* Tamaño de pantalla: Desde 576px (Teléfonos móviles en modo horizontal y tabletas en modo vertical) */
 @media (min-width: 576px) {
-    #optionsToggleMenu{
+    #optionsToggleMenu {
         width: 75%;
         margin: auto;
     }
 
-    #optionsBody{
+    h3, .carousel{
+        display: none;
+    }
+
+    #optionsBody {
         display: block;
     }
 }
 
+/* Tamaño de pantalla: Hasta 575px (Teléfonos móviles en modo vertical) */
 @media (max-width: 575px) {
-    #optionsToggleMenu{
+    #optionsToggleMenu {
         width: 100%;
         margin: auto;
     }
 
-    #optionsBody{
+    #optionsBody {
         display: block;
     }
 }
 
+/* Tamaño de pantalla: Desde 992px (Computadoras de escritorio y monitores de alta resolución) */
 @media (min-width: 992px) {
-    #optionsButtonMenu{
+    #optionsButtonMenu {
         display: none;
     }
 
-    #optionsBody{
+    #optionsBody {
         display: block;
     }
 
-    #search{
+    #search {
         position: absolute;
         right: 0;
         top: 2;
         width: 15%;
     }
 
-    .navText{
+    .navText {
         margin-left: 30%;
         margin-right: 40%;
+    }
+
+    h3, .carousel{
+        display: block;
     }
 }
